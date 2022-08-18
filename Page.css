@@ -1,0 +1,109 @@
+/*윗부분*/
+.top{
+    width:65%;
+    height: 300px;
+ 
+    background-color: rgb(241,241,241);
+    border-radius: 60px; /* 테두리 둥글게 */
+    padding: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+.img{
+    float:left;
+    max-width: 80%;
+}
+img{
+    width:190px;
+    height:200px;
+}
+.section2{
+    float:left;
+    margin-left:20px;
+    text-align: start;
+    line-height: 30px;
+}
+
+.Star{
+    float:left;
+    margin-top: 30px;
+    margin-left:20px;
+    bottom: 400px;
+}
+
+
+
+/*별점주기 왼쪽에 띄어쓰기*/
+.s1{ 
+    margin-left: 20px;
+}
+
+.OK{
+    /*별점 등록 버튼*/
+    width: 40px;
+    height: 20px;
+    background-color: #1F3E1B;
+    border-radius: 10;
+    font-size : 10px;
+    border-radius: 5px;
+    color: white;
+    float:right;
+    margin-top: 10px;
+}
+
+/*아래부분*/
+.bottom{
+    width:65%;
+    height: 700px;
+ 
+    background-color: rgb(241,241,241);
+    border-radius: 60px; /* 테두리 둥글게 */
+    padding: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+.comment{
+    float:left;
+    margin-bottom: 10px;
+}
+
+.input_comment{
+    /*댓글 쓰는 input*/
+    color: #797979;
+    width: 100%;
+    height: 15%;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #707070;
+    margin-bottom: 8px;
+    border-width: 1.5px;
+    border-style : solid;
+    padding: 10px;
+    font-size: 20px;
+    position: static;
+}
+
+.click_comment{ 
+/*댓글 등록 버튼*/
+    width: 50px;
+    height: 25px;
+    background-color: #1F3E1B;
+    border-radius: 10;
+    font-size : 16;
+    border-radius: 5px;
+    color: white;
+    float:right;
+}
+
+.radio{  /*라디오 버튼 부분*/
+    float: left;
+    margin-top: 30px;
+}
